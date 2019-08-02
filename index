@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<link rel="stylesheet" href="css/index.css">
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/TouchSlide.1.1.js"></script>
+<script>
+(function (){
+	var rootHtml = $(":root");
+	var rootResize = function (){
+		var fontSize =$(window).width()<640?$(window).width()/640*100:100;
+		rootHtml.css("font-size",fontSize);
+	}
+	rootResize();
+	$(window).resize(function (){
+		rootResize();
+	});
+})();
+</script>
+</head>
+<body>
+<section class="mains">
+	<div class="banner">
+		<img src="images/banner_01.jpg"  /><img src="images/banner_02.jpg"  />
+	</div>
+	<div class="cen1">
+		<div class="titcss">
+			<h2>去眼袋，你走过多少弯路？</h2>
+			<p>花钱费力没效果,心累！</p>
+		</div>
+		<div class="ulbox">
+			<ul>
+				<li>
+					<img src="images/qyd1.jpg" />
+					<div class="txt">
+						<p><strong>自制眼膜</strong></p>
+						<p>效果：☆</p>
+						<p>推荐指数：☆</p>
+						<p>滋生细菌,引发痤疮</p>
+					</div>
+				</li>
+				<li>
+					<img src="images/qyd2.jpg" />
+					<div class="txt">
+						<p><strong>毛巾冷敷</strong></p>
+						<p>效果：☆</p>
+						<p>推荐指数：☆</p>
+						<p>仅能消肿,对眼袋无效</p>
+					</div>
+				</li>
+				<li>
+					<img src="images/qyd3.jpg" />
+					<div class="txt">
+						<p><strong>眼部按摩</strong></p>
+						<p>效果：★</p>
+						<p>推荐指数：☆</p>
+						<p>可能加重皮肤松弛</p>
+					</div>
+				</li>
+				<li>
+					<img src="images/qyd4.jpg" />
+					<div class="txt">
+						<p><strong>眼霜精华</strong></p>
+						<p>效果：★☆</p>
+						<p>推荐指数：★★</p>
+						<p>过程繁琐，改善有限</p>
+					</div>
+				</li>
+				<li>
+					<img src="images/qyd5.jpg" />
+					<div class="txt">
+						<p><strong>药膳食疗</strong></p>
+						<p>效果：☆</p>
+						<p>推荐指数：★☆</p>
+						<p>眼袋没去，先胖三斤</p>
+					</div>
+				</li>
+				<li>
+					<img src="images/qyd6.jpg" />
+					<div class="txt">
+						<p><strong>传统去眼袋手术</strong></p>
+						<p>效果：★★★</p>
+						<p>推荐指数：★★☆</p>
+						<p>易留疤,并发症多</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="cen2">
+		<div class="titcss">
+			<h2>去眼袋最好的方法是怎样的？</h2>
+		</div>
+		<div class="textp"><p>调查显示，眼袋患者心目中好的去眼袋方法应该具备五大特点，效果明显，安全自然，便捷简单，体验舒适、性价比高五大特点。</p></div>
+		<div class="ulbox">
+			<ul>
+				<li>
+					<p><span>3565票</span><strong>1.安全自然</strong></p>
+					<div class="re"><i></i><span></span></div>
+				</li>
+				<li>
+					<p><span>2946票</span><strong>2.便捷简单</strong></p>
+					<div class="re"><i></i><span></span></div>
+				</li>
+				<li>
+					<p><span>1762票</span><strong>3.体现舒适</strong></p>
+					<div class="re"><i></i><span></span></div>
+				</li>
+				<li>
+					<p><span>943票</span><strong>4.性价比高</strong></p>
+					<div class="re"><i></i><span></span></div>
+				</li>
+				<li>
+					<p><span>1354票</span><strong>5.长久维持</strong></p>
+					<div class="re"><i></i><span></span></div>
+				</li>
+				<li>
+					<p><span>2034票</span><strong>6.其他</strong></p>
+					<div class="re"><i></i><span></span></div>
+				</li>
+			</ul>
+		</div>
+		<div class="xbi">
+			<h3>你觉得去眼袋方法最重要是什么？</h3>
+			<div class="srbox">
+				<strong>安全自然<i></i></strong>
+				<strong>便捷简单<i></i></strong>
+				<strong>体现舒适<i></i></strong>
+				<strong>性价比高<i></i></strong>
+				<strong>长久维持<i></i></strong>
+				<strong>其他<i></i></strong>
+			</div>
+		</div>
+		<a href="" class="btn">投票</a>
+	</div>
+	<div class="cen3">
+		<div class="titcss">
+			<h2>美诗沁去眼袋<span>3</span>大技术</h2>
+			<p>眼袋去无踪，双眸更闪耀</p>
+		</div>
+		<div class="txtp">
+			<p>美诗沁核心医师团队经过23年潜心钻研，成功研发出以超微创去眼袋为核心的一些列眼部年轻化技术，以自然健康、安全高效的创新疗法，开启去眼袋新时代。</p>
+		</div>
+		<div class="box_txt">
+			<p><strong>超微创<br />不开刀</strong></p>
+			<p><strong>不流血<br />无需包扎</strong></p>
+			<p><strong>3-5天<br />恢复</strong></p>
+			<p><strong>20分钟<br />完成治疗</strong></p>
+			<p><strong>舒适无痛</strong></p>
+		</div>
+		<div class="box_bor">
+			<img src="images/qyd7.jpg" class="imgtit" />
+			<div class="bgfff bg1">
+				<p class="p1"><strong>作用原理：</strong>在结膜内做一个2-3mm的微孔，利用高科技专业仪器定点定位排出下眼睑多余脂肪，以达到去除眼袋的目的，同时具有效缓解黑眼圈的功效</p>
+				<p class="p2"><strong>适应人群：</strong>患脂肪型眼袋的求美者<br /><span></span>下眼睑皮肤未出现明显松弛的求美者</p>
+				<p><strong>效果：</strong>★★★★</p>
+				<p><strong>推荐指数：</strong>★★★★★</p>
+				<div class="libox">
+					<ul>
+						<li><strong><span>免开刀</span></strong>无疼痛<br />便捷简单</li>
+						<li><strong><span>安全</span></strong>无后遗症<br />不留瘢痕</li>
+						<li><strong><span>多效</span></strong>一次治疗<br />长久维持</li>
+					</ul>
+				</div>
+				<div class="btn_a">
+					<a href="">不开刀去眼袋会痛吗？</a>
+					<a href="">了解价格</a>
+				</div>
+			</div>
+		</div>
+		<div class="box_bor">
+			<img src="images/qyd8.jpg" class="imgtit" />
+			<div class="bgfff bg2">
+				<p class="p1"><strong>作用原理：</strong>结合超微创去眼袋技术分离出眶隔脂肪，然后将眶隔脂肪进行分离提纯，并通过定位注射的方式将脂肪颗粒注入泪沟凹陷处，以达到去眼袋和消除泪沟的目的。</p>
+				<p class="p3"><strong>适应人群：</strong>患泪沟型眼袋的求美者</p>
+				<p class="p3"><strong>效果：</strong>★★★★☆</p>
+				<p class="p3"><strong>推荐指数：</strong>★★★★★</p>
+				<div class="libox">
+					<ul>
+						<li><strong><span>持久</span></strong>脂肪细胞成活<br />后将长久维持</li>
+						<li><strong><span>高效</span></strong>纳米级提纯技术<br />脂肪成活率高</li>
+						<li><strong><span>多效</span></strong>去眼底<br />填泪沟</li>
+					</ul>
+				</div>
+				<div class="btn_a mrg2">
+					<a href="">能维持多久？</a>
+					<a href="">了解价格</a>
+				</div>
+			</div>
+		</div>
+		<div class="box_bor">
+			<img src="images/qyd9.jpg" class="imgtit" />
+			<div class="bgfff bg3">
+				<p class="p1"><strong>作用原理：</strong>在采用超微创技术将眼袋去除后，利用细小导引机器精确埋入PPDO悬吊线，刺激皮下胶原蛋白增生，拉紧周围组织，达到收紧眼部松弛皮肤，淡化眼周细纹的目的。</p>
+				<p class="p2"><strong>适应人群：</strong>患松弛型眼袋的求美者<br /><span></span>
+                眼周细纹明显,皮肤老化下垂的求美者</p>
+				<p><strong>效果：</strong>★★★★</p>
+				<p><strong>推荐指数：</strong>★★★★★</p>
+				<div class="libox">
+					<ul>
+						<li><strong><span>无痕</span></strong>无需做任何<br />切口不留疤痕</li>
+						<li><strong><span>安全</span></strong>PPDO最终分<br />解成二氧化碳<br />和水，无残留</li>
+						<li><strong><span>多效</span></strong>提升<br />除皱<br />去眼袋</li>
+					</ul>
+				</div>
+				<div class="btn_a">
+					<a href="">有副作用吗？</a>
+					<a href="">了解价格</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cen4">
+		<div class="titcss">
+			<h2>还在犹豫吗？看看她们的选择！</h2>
+			<p>美诗沁真人案例，效果亲眼见证</p>
+		</div>
+		<div class="silder" id="silder">
+			<div class="bd">
+				<ul>
+					<li>
+						<div class="txt">
+							<div class="img"><img src="images/ren1.jpg" /></div>
+							<div class="rtxt">
+								<h3>Lily</h3>
+								<p><strong>年龄：</strong>27岁</p>
+								<p><strong>蝶变方案：</strong>不开刀去眼袋</p>
+								<p><strong>年轻效果：</strong>去除眼袋，同<br /><span></span>时黑眼圈淡化</p>
+								<p><strong>关注点：</strong>价格，效果自然</p>
+							</div>
+						</div>
+						<div class="duibi">
+							<p><span>BEFORE</span><img src="images/before1.jpg" /></p>
+							<p><span>AFTER</span><img src="images/after1.jpg" /></p>
+						</div>
+					</li>
+					<li>
+						<div class="txt">
+							<div class="img"><img src="images/ren2.jpg" /></div>
+							<div class="rtxt">
+								<h3>刘姐</h3>
+								<p><strong>年龄：</strong>41岁</p>
+								<p><strong>蝶变方案：</strong>PPDO魅眼精雕术</p>
+								<p><strong>年轻效果：</strong>眼袋去除，细纹<br /><span></span>淡化、皮肤紧致</p>
+								<p><strong>关注点：</strong>效果自然、安全</p>
+							</div>
+						</div>
+						<div class="duibi">
+							<p><span>BEFORE</span><img src="images/before2.jpg" /></p>
+							<p><span>AFTER</span><img src="images/after2.jpg" /></p>
+						</div>
+					</li>
+					<li>
+						<div class="txt">
+							<div class="img"><img src="images/ren3.jpg" /></div>
+							<div class="rtxt">
+								<h3>Jack</h3>
+								<p><strong>年龄：</strong>35岁</p>
+								<p><strong>蝶变方案：</strong>平衡法去眼袋</p>
+								<p><strong>年轻效果：</strong>眼袋无踪，填平<br /><span></span>泪沟，黑眼圈淡化</p>
+								<p><strong>关注点：</strong>方便、安全</p>
+							</div>
+						</div>
+						<div class="duibi">
+							<p><span>BEFORE</span><img src="images/before3.jpg" /></p>
+							<p><span>AFTER</span><img src="images/after3.jpg" /></p>
+						</div>
+					</li>
+					<li>
+						<div class="txt">
+							<div class="img"><img src="images/ren4.jpg" /></div>
+							<div class="rtxt">
+								<h3>黄女士</h3>
+								<p><strong>年龄：</strong>55岁</p>
+								<p><strong>蝶变方案：</strong>PPDO魅眼精雕术</p>
+								<p><strong>年轻效果：</strong>眼袋去除，细纹<br /><span></span>淡化、皮肤紧致</p>
+								<p><strong>关注点：</strong>治疗体验、安全</p>
+							</div>
+						</div>
+						<div class="duibi">
+							<p><span>BEFORE</span><img src="images/before4.jpg" /></p>
+							<p><span>AFTER</span><img src="images/after4.jpg" /></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="hd">
+				<ul>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			TouchSlide({ 
+				slideCell:"#silder",
+				titCell:".hd ul", 
+				mainCell:".bd ul", 
+				effect:"leftLoop", interTime:5000,
+				autoPlay:true,
+				autoPage: '<li></li>', 
+				switchLoad:"_src"
+			});
+		</script>
+		<a href="" class="btn_a">我的眼袋问题和她一样</a>
+	</div>
+	<div class="cen5">
+		<div class="titcss">
+			<h2>技术奠基品质·实力造就品牌 </h2>
+			<p>美诗沁·国际去眼袋技术领跑者</p>
+		</div>
+		<div class="textp"><p>美诗沁专家23年来匠心不变，在医师团队的潜心钻研下，在与国际先进技术不断的交流碰撞中，终于实现了自然、健康、高效、舒适的超微创去眼袋疗法，已为众多求美者带来了全新的去眼袋体验，并获得了国内外专家一致好评，成为眼部整形领域的技术标杆。</p></div>
+		<div class="ulbox">
+			<ul>
+				<li><img src="images/qyd13.jpg" /><p>举办安全去眼袋专题讨论会</p></li>
+				<li><img src="images/qyd14.jpg" /><p>成立眼袋治疗失败修复中心</p></li>
+				<li><img src="images/qyd15.jpg" /><p>举办各类型眼袋治疗研讨会</p></li>
+				<li><img src="images/qyd16.jpg" /><p>协办亚洲首届眼部整形高峰论坛</p></li>
+			</ul>
+		</div>
+	</div>
+	<div class="cen6">
+		<div class="titcss">
+			<h2>匠心不变 · 刻苦钻研 </h2>
+			<p>美诗沁医师  · 23年专注去眼袋</p>
+		</div>
+		<div class="silder2" id="silder2">
+			<div class="bd">
+				<ul>
+					<li>
+						<div class="boxsw">
+							<img src="images/yisheng1.png" class="yisheng" />
+							<div class="txtr">
+								<h3>张志兵</h3>
+								<p><em>▪</em>美诗沁集团医疗质量监督委员会主席</p>
+								<p><em>▪</em>国内科技美容创新十大领先人物</p>
+								<p><em>▪</em>中国中西医结合学会医学美容专业委员会专家指导委员</p>
+								<p><em>▪</em>中国医学整形美容协会会员</p>
+
+								<p>&nbsp;</p>
+								<p><strong>擅长项目：</strong></p>
+								<p><em>▪</em>PPDO魅眼精雕术</p>
+								<p><em>▪</em>四维综合眼袋修复</p>
+								<p><em>▪</em>超微创去眼袋</p>
+							</div>
+							<a href="" class="btn_a">找他定制去眼袋方案</a>
+						</div>
+						<div class="boximg"><img src="images/qyd18.jpg" /></div>
+					</li>
+					<li>
+						<div class="boxsw">
+							<img src="images/yisheng2.png" class="yisheng" />
+							<div class="txtr">
+								<h3>张永义</h3>
+								<p><em>▪</em>美诗沁集团学术委员会主席</p>
+								<p><em>▪</em>中国医学美容协会会员</p>
+								<p><em>▪</em>KOREA整形外科协会荣誉会员</p>
+								<p><em>▪</em>微创美容行业领军人物</p>
+								<p>&nbsp;</p>
+								<p><strong>擅长项目：</strong></p>
+								<p><em>▪</em>眶隔脂肪转移去眼袋</p>
+								<p><em>▪</em>超微创去眼袋</p>
+								<p><em>▪</em>超微创眼部精细美容</p>
+								<p><em>▪</em>四维综合眼袋修复</p>
+							</div>
+							<a href="" class="btn_a">找他定制去眼袋方案</a>
+						</div>
+						<div class="boximg"><img src="images/qyd19.jpg" /></div>
+					</li>
+					<li>
+						<div class="boxsw">
+							<img src="images/yisheng3.png" class="yisheng" />
+							<div class="txtr">
+								<h3>宣瑞军</h3>
+								<p><em>▪</em>美诗沁眼部微创新技术研发中心主任</p>
+								<p><em>▪</em>国内明星眼部整形特邀专家</p>
+								<p><em>▪</em>中国医学整形美容协会会员</p>
+								<p><em>▪</em>台湾医学美容协会会员</p>
+								<p>&nbsp;</p>
+								<p><strong>擅长项目：</strong></p>
+								<p>微创去眼袋</p>
+								<p><em>▪</em>综合眼部年轻化</p>
+								<p><em>▪</em>微创双眼皮</p>
+								<p><em>▪</em>微创开眼角</p>
+							</div>
+							<a href="" class="btn_a">找他定制去眼袋方案</a>
+						</div>
+						<div class="boximg"><img src="images/qyd20.jpg" /></div>
+					</li>
+				</ul>
+			</div>
+			<div class="hd">
+				<ul></ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			TouchSlide({ 
+				slideCell:"#silder2",
+				titCell:".hd ul", 
+				mainCell:".bd ul", 
+				effect:"leftLoop", interTime:6000,
+				autoPlay:true,
+				autoPage: '<li></li>', 
+				switchLoad:"_src"
+			});
+		</script>
+	</div>
+</section>
+</body>
+</html>
