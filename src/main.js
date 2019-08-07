@@ -6,9 +6,9 @@ import store from './stores'
 import axios from 'axios'
 Vue.prototype.axios =axios;
 
-Vue.filter('setwh',(url,arg)=>{
-	return url.replace(/w\.h/,arg);
-})
+Vue.filter('setWH',(url , arg)=>{
+    return url.replace(/w\.h/,arg);
+});
 
 import Scrollder from '@/components/Scrollder'
 Vue.component('Scrollder',Scrollder)

@@ -7,7 +7,7 @@
 			<h3>电影/电视剧/综艺</h3>
 			<ul>
 				<li v-for="item in searchlist" :key="item.id">
-					<div class="img"><img :src="item.img|setwh('128.180')"></div>
+					<div class="img"><img :src="item.img|setWH('128.180')"></div>
 					<div class="info">
 						<p><span>{{item.nm}}</span><span>{{item.sc}}</span></p>
 						<p>{{item.enm}}</p>
