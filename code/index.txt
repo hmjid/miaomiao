@@ -1,8 +1,0 @@
-https://ssr.vuejs.org/zh/
-
-°²×°
-cnpm install vue vue-server-renderer --save
-
-
-
-git clone https://github.com/vuejs/vue-hackernews-2.0
