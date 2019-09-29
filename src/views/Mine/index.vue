@@ -1,7 +1,7 @@
 <template>
 	<div id = "main">
 		<Header :title="title"/>
-		<Login/>
+			<router-view />
 		<TabBer/>
 	</div>
 </template>

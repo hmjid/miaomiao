@@ -40,7 +40,6 @@ export default {
             this.axios.get('/api/getLocation').then((res)=>{
                 var msg = res.data.msg;
                 if(msg === 'ok'){
-
                     var nm = res.data.data.nm;
                     var id = res.data.data.id;
                     if( this.$store.state.city.id == id ){return;}

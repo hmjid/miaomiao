@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import movieRouter from './movie'
 import MineRouter from './mine'
 import CinemaRouter from './cinema'
+import AdminRouter from './admin'
 
 Vue.use(Router)
 
@@ -12,11 +13,12 @@ export default new Router({
   base: 'miaomiao',
   routes: [
     movieRouter,
-	MineRouter,
-	CinemaRouter,
-	{
-		path : '/*',
-		redirect : '/movie'
-	}
+    MineRouter,
+    CinemaRouter,
+    AdminRouter,
+    {
+      path : '/*',
+      redirect : '/movie'
+    }
   ]
 })
